@@ -26,4 +26,6 @@ We used 5 main datasets to perform this work:
 
   - 140k Real and Fake faces (Available on [Kaggle](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces))
  
-  #
+  # Datasets distribution with PCA
+
+  ![PCA data distribution](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/Acp.png)
