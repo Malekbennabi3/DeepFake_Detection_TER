@@ -29,3 +29,4 @@ We used 5 main datasets to perform this work:
   # Datasets distribution with PCA
 
   ![PCA data distribution](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/Acp.png)
+  The data were displayed to make sure that the different datasets are interlaced and not linearly separable, in such a way that the model differentiates them by characteristics.
