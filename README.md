@@ -31,7 +31,21 @@ We used 5 main datasets to perform this work:
 
   # Approaches
 
-  - Direct approach ![Direct approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/direct.png)
+  - Direct approach:
+    This approach is based on training a convolutional neural network(CNN) on images from the inpainting and wiki datasets.
+    The goal is to build a classifier capable to distinguish between real and faked images.
+    To achieve this, we opted for fine-tuning and CNN models based on pre-trained architectures.
+    ![Direct approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/direct.png)
     
-  - Fourier approach ![Fourier approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/fourier.png)  
+  - Fourier approach:
+    For this approach, we select DenseNet_V2 because of its ability to converge quickly.
+    The calculation of the Fourier transform enables us to capture specific features that are often present in deepfakes but invisible in the spatial domain.
+
+    To carry out this method we generated a dataset by following the steps below:
+    - Conversion of each image into grey levels
+    - Application of the 2D Fourier Transform to the greyscale image
+    - Centring the Zero Frequency (for easier viewing)
+    - Calculation of the Magnitude Spectrum (Logarithm of the absolute value of the Fourier transform)
+    - Recording Magnitude Images: The resulting images of the magnitude spectrum were recorded and used as input data for the DenseNet_V2 model.
+     ![Fourier approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/fourier.png)  
 
