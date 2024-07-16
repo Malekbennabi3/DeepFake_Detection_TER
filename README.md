@@ -49,3 +49,37 @@ We used 5 main datasets to perform this work:
     - Recording Magnitude Images: The resulting images of the magnitude spectrum were recorded and used as input data for the DenseNet_V2 model.
      ![Fourier approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/fourier.png)  
 
+  - Auto-Encodeur approach:
+    For this approach, we used an autoencoder trained on 60,000 images from the CelebA dataset.
+    The aim was to develop a model capable of producing compact and informative compact and informative embeddings of images of faces, that can be used for binary classification to distinguish real images from deepfakes.
+    The autoencoder consists of an encoder and a decoder. The encoder transforms the images into a latent vector, while the the decoder reconstructs the images from this latent vector.
+
+    # Experiments
+
+    - Training (Inpainting Dataset ):
+      - train set 80%
+      - validation set 10%
+      - testing set 10%
+
+    - Evaluation (30k images from each dataset):
+      - Dataset Insight
+      - Dataset Text2image
+      - Dataset 140k images(GAN).
+     
+    # Results
+
+    - Direct approach:
+      ![Direct approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/res_direct.png)  
+
+
+    - Fourier approach
+      ![Fourier approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/res_fourier.png)  
+
+
+    - Autoencoder appraoch
+      ![Autoencoder approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/res_auto.png)  
+
+        
+
+    
+  
