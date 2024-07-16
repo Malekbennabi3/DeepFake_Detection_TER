@@ -31,6 +31,7 @@ We used 5 main datasets to perform this work:
 
   # Approaches
 
-  -  ![Direct approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/direct.png)
-  -  ![Fourier approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/fourier.png)  
+  - Direct approach ![Direct approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/direct.png)
+    
+  - Fourier approach ![Fourier approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/fourier.png)  
 
