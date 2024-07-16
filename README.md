@@ -31,13 +31,13 @@ We used 5 main datasets to perform this work:
 
   # Approaches
 
-  - Direct approach:
+  - **Direct approach**:
     This approach is based on training a convolutional neural network(CNN) on images from the inpainting and wiki datasets.
     The goal is to build a classifier capable to distinguish between real and faked images.
     To achieve this, we opted for fine-tuning and CNN models based on pre-trained architectures.
     ![Direct approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/direct.png)
     
-  - Fourier approach:
+  - **Fourier approach**:
     For this approach, we select DenseNet_V2 because of its ability to converge quickly.
     The calculation of the Fourier transform enables us to capture specific features that are often present in deepfakes but invisible in the spatial domain.
 
@@ -49,7 +49,7 @@ We used 5 main datasets to perform this work:
     - Recording Magnitude Images: The resulting images of the magnitude spectrum were recorded and used as input data for the DenseNet_V2 model.
      ![Fourier approach](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/img/fourier.png)  
 
-  - Auto-Encodeur approach:
+  - **Autoencodeur approach**:
     For this approach, we used an autoencoder trained on 60,000 images from the CelebA dataset.
     The aim was to develop a model capable of producing compact and informative compact and informative embeddings of images of faces, that can be used for binary classification to distinguish real images from deepfakes.
     The autoencoder consists of an encoder and a decoder. The encoder transforms the images into a latent vector, while the the decoder reconstructs the images from this latent vector.
@@ -81,5 +81,6 @@ We used 5 main datasets to perform this work:
 
         
 
+# *for more details and information, please consult the final* [Report [French]](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/Rapport_TER.pdf)
     
   
