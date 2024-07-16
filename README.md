@@ -20,8 +20,10 @@ We used 5 main datasets to perform this work:
 
 - **For the fake datasets**
   - Deep Fake Face (DFF) [Hugging Face](https://huggingface.co/datasets/OpenRL/DeepFakeFace):
-    1. Inpainting: Inpainting diffusion 
+    1. Inpainting: Inpainting stable diffusion 
     2. Text2image: Stable diffusion v1.5
     3. Insight: Toolbox InsightFace
 
-  - 140k Real and Fake faces [Kaggle](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces)
+  - 140k Real and Fake faces (Available on [Kaggle](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces))
+ 
+  #
