@@ -1,8 +1,5 @@
-# TER_Notebooks
-
 # Objectives of the project:
-The main objective of this work is to propose deep learning-based methods for binary image classification.
-for binary image classification (True/False) and then to evaluate the performance of these implemented approaches.
+The main objective of this work is to propose deep learning-based methods for binary image classification (True/Fake) and then to evaluate the performance of these implemented approaches.
 
 # The implemented approches
 In this project we have implemented 3 distinct approaches, each based on a very specific technique:
@@ -20,9 +17,9 @@ We used 5 main datasets to perform this work:
 
 - **For the fake datasets**
   - Deep Fake Face (DFF) [Hugging Face](https://huggingface.co/datasets/OpenRL/DeepFakeFace):
-    1. Inpainting: Inpainting stable diffusion 
-    2. Text2image: Stable diffusion v1.5
-    3. Insight: Toolbox InsightFace
+    - Inpainting: Inpainting stable diffusion 
+    - Text2image: Stable diffusion v1.5
+    - Insight: Toolbox InsightFace
 
   - 140k Real and Fake faces (Available on [Kaggle](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces))
  
