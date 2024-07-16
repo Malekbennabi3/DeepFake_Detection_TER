@@ -17,9 +17,11 @@ We used 5 main datasets to perform this work:
 - **For the real images**
 -  The IMDB-WIKI dataset. [Dataset link](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/wiki_crop.tar), [Scientific Paper](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)
 
+
 - **For the fake datasets**
-- Deep Fake Face (DFF) [Hugging Face](https://huggingface.co/datasets/OpenRL/DeepFakeFace)
- - Inpainting: Inpainting diffusion []()
- - Text2image: Stable diffusion v1.5 []()
- - Insight: Toolbox InsightFace []()
- - 140k Real and Fake faces []()
+- Deep Fake Face (DFF) [Hugging Face](https://huggingface.co/datasets/OpenRL/DeepFakeFace):
+   1. Inpainting: Inpainting diffusion 
+   2. Text2image: Stable diffusion v1.5
+   3. Insight: Toolbox InsightFace
+
+- 140k Real and Fake faces [Kaggle](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces)
