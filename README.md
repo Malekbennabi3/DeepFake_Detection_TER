@@ -89,6 +89,6 @@ We used 5 main datasets to perform this work:
        On the other hand, the approach based on dimensionality reduction with autoencoders has less conclusive, probably due to the difficulty of extracting significant features from real features from real faces.
 
 
-## *for more details and information, please consult the final* [Report [French]](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/Rapport_TER.pdf)
+## *for more details and information, please consult the final* [Report [French]](https://github.com/Malekbennabi3/TER_Notebooks/blob/main/TER_Rapport.pdf)
     
   
